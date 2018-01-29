@@ -13,7 +13,20 @@ It's easy to get started. Simply enter the API Key and secret you obtained from 
 
 ### 👀 Lookup a number
 ```javascript
-console.log("TODO: Add API example")
+const sdk = require('messagemedia-lookups-sdk');
+
+// Configuration parameters and credentials
+lib.Configuration.basicAuthUserName = "YOUR_API_KEY"; // The username to use with basic authentication
+lib.Configuration.basicAuthPassword = "YOUR_API_SECRET"; // The password to use with basic authentication
+
+var controller = lib.LookupsController;
+
+var phoneNumber = "YOUR_MOBILE_NUMBER";
+var options = 'carrier,type';
+
+controller.getLookupAPhoneNumber(phoneNumber, options, function(error, response, context) {
+  console.log(response)
+});
 ```
 
 ## 📕 Documentation
