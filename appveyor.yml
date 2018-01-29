@@ -15,7 +15,5 @@ install:
 test_script:
   # command to run linter
   - npm run lint
-  # run tests
-  - npm test
 # Don't actually build.
 build: off

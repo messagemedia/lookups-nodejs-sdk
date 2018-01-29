@@ -9,6 +9,5 @@ node {
 
     stage ('Test') {
         bat 'npm run lint'
-        bat 'npm test'
     }
 }
