@@ -4,7 +4,8 @@
   "description": "The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.",
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "test": "mocha --recursive"
   },
   "keywords": [
     "sms",
