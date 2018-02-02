@@ -59,7 +59,7 @@ Each property in the response body is defined as follows:
             headers['Content-Type'] = null;
             assert.isTrue(TestHelper.areHeadersProperSubsetOf(headers, context.response.headers, true));
             assert.isNotNull(response);
-            assert.equal({"countryCode":"AU","phoneNumber":"+61491570156","type":"MOBILE","carrier":{"name":"AU Landline Carrier"}}, context.response.body);
+            assert.equal('{"carrier":{"name":"AU Landline Carrier"},"country_code":"AU","phone_number":"+61491570156"}', context.response.body);
             done();
         });
     });
