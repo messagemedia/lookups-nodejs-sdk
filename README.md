@@ -18,10 +18,10 @@ It's easy to get started. Simply enter the API Key and secret you obtained from 
 const sdk = require('messagemedia-lookups-sdk');
 
 // Configuration parameters and credentials
-lib.Configuration.basicAuthUserName = "YOUR_API_KEY"; // The username to use with basic authentication
-lib.Configuration.basicAuthPassword = "YOUR_API_SECRET"; // The password to use with basic authentication
+sdk.Configuration.basicAuthUserName = "YOUR_API_KEY"; // The username to use with basic authentication
+sdk.Configuration.basicAuthPassword = "YOUR_API_SECRET"; // The password to use with basic authentication
 
-var controller = lib.LookupsController;
+var controller = sdk.LookupsController;
 
 var phoneNumber = "YOUR_MOBILE_NUMBER";
 var options = 'carrier,type';
