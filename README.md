@@ -34,5 +34,5 @@ controller.getLookupAPhoneNumber(phoneNumber, options, function(error, response,
 ## 📕 Documentation
 The NodeJS SDK Documentation can be viewed [here](DOCUMENTATION.md)
 
-## 😕 Got Stuck?
+## 😕 Need help?
 Please contact developer support at developers@messagemedia.com or check out the developer portal at [developers.messagemedia.com](https://developers.messagemedia.com/)
