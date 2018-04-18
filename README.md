@@ -1,5 +1,5 @@
 # MessageMedia Lookups NodeJS SDK
-[![Travis Build Status](https://travis-ci.org/messagemedia/lookups-nodejs-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/lookups-nodejs-sdk)
+[![Travis Build Status](https://travis-ci.org/messagemedia/lookups-nodejs-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/lookups-nodejs-sdk)[![npm version](https://badge.fury.io/js/messagemedia-lookups-sdk.svg)](https://badge.fury.io/js/messagemedia-lookups-sdk)
 
 The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.
 
